@@ -18,8 +18,8 @@ compose = local['docker-compose']
 DEFAULT_CONF = {
     "shared_eggs": True,
     "shared_gems": True,
-    "odoo": "https://github.com/oca/ocb.git",
-    "template": "https://github.com/akretion/voodoo-template.git",
+    "odoo": "https://github.com/Clear-ICT/ocb.git",
+    "template": "https://github.com/Clear-ICT/voodoo-template.git",
     "map_user_for_service": ["db"],
     "env": "dev",
 }
