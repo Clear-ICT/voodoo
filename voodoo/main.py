@@ -338,7 +338,7 @@ class VoodooNew(VoodooSub):
         version = choose(
             "Select your template?",
             versions,
-            default = "9.0")
+            default = "8.0")
         with local.cwd(name):
             self._run(git["checkout", version])
 
