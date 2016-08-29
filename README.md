@@ -91,7 +91,7 @@ Please do not forget to install the latest version if you choose to install it m
 #### Install Voodoo:
 
 ```
-  sudo pip install git+https://github.com/akretion/voodoo.git --upgrade
+  sudo pip install git+https://github.com/Clear-ICT/voodoo.git --upgrade
 ```
 
 
