@@ -15,7 +15,7 @@ services:
     - 1280:1080
     - 1225:1025
   odoo:
-    image: akretion/voodoo:latest
+    image: clearict/voodoo:latest
     environment:
     - PYTHONDONTWRITEBYTECODE=True
     links:

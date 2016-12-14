@@ -227,7 +227,7 @@ class VoodooNew(VoodooSub):
     """Create a new project"""
 
     def main(self, name):
-        versions = ['10.0', '9.0', '8.0', '7.0']
+        versions = ['develop', '2015.1', '10.0', '9.0', '8.0', '7.0']
         version = choose(
             "Select your Odoo project template",
             versions,
